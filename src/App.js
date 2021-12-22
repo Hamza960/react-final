@@ -8,14 +8,14 @@ import {
   
   import First from "./first";
 // import About component
-  import Virtual from "./second";
+  import App from "./second";
 
 function App() {
   
     return (
       
         <>
-        <Router>
+        <Router basename="/react-final">
         <Switch>
           {/* This route is for home component 
           with exact path "/", in component props 
