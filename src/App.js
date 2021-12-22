@@ -8,7 +8,7 @@ import {
   
   import First from "./first";
 // import About component
-  import App from "./second";
+  import Virtual from "./second";
 
 function App() {
   
@@ -25,7 +25,7 @@ function App() {
           {/* This route is for about component 
           with exact path "/about", in component 
           props we passes the imported component*/}
-          <Route path="/second" component={App} />
+          <Route path="/second" component={Virtual} />
             
           {/* This route is for contactus component
           with exact path "/contactus", in 

@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import './App.css';
 
 
-function App() {
+function Virtual() {
   const [formValues, setFormValue] = useState({
     startdate: "",
     enddate: "",
@@ -153,4 +153,4 @@ var weekDate =(   curr_year +  "-" + curr_month +"-" + seven_date ) ;
 
 
 
-export default App;
+export default Virtual;
